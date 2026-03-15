@@ -43,6 +43,23 @@ jobDescription: "Java Backend Developer with Spring Boot experience"
 
 Controller → Service → Gemini API → DTO Parsing → Database Storage
 
+#diagram
+Client (Postman)
+        ↓
+ResumeController
+        ↓
+ResumeService
+        ↓
+PDF Parsing (PDFBox)
+        ↓
+Gemini AI Analysis
+        ↓
+DTO Parsing
+        ↓
+PostgreSQL Database
+
+
+
 ## Future Improvements
 
 • Semantic resume matching using embeddings
